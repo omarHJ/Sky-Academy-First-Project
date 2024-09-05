@@ -1,0 +1,248 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+::selection {
+    background-color: #3ba70a;
+    color: white;
+}
+body {
+    background-color: whitesmoke;
+}
+
+a {
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.boldFont {
+    font-weight: 700;
+}
+
+svg {
+    width: 20px;
+    margin-right: 20px;
+    color: white;
+}
+
+.icon-white {
+    fill: white;
+}
+
+.navbar {
+    background-color: #3ba70a;
+    color: white;
+}
+
+.navbar-nav .nav-link.active {
+    color: white;
+}
+
+h4 {
+    padding: 25px;
+}
+
+.home-first-Div {
+    display: flex;
+    justify-content: space-between;
+}
+
+.request-Button {
+    background-color: #3ba70a;
+    color: white;
+    padding: 2px 15px;
+    border: none;
+    border-radius: 5px;
+    height: fit-content;
+    place-self: center;
+    margin-right: 15px;
+}
+
+.home-second-div {
+    margin: 1% 5%;
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.Card-1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: rgb(232, 232, 232);
+    border-radius: 10px;
+    max-width: 100%;
+    text-wrap: nowrap;
+    margin: 10px;
+    box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.3);
+    width: 650px;
+}
+
+.Card-2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    background-color: #3ba70a;
+    border-radius: 10px;
+    color: white;
+    box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.3);
+    margin: 10px;
+    padding: 10px;
+    width: 190px;
+}
+
+.home-third-div {
+    background-color: rgb(232, 232, 232);
+    border-radius: 10px;
+    margin: auto;
+    box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.3);
+    width: 94%;
+}
+
+.home-third-div hr {
+    width: 95%;
+    margin: auto;
+}
+
+.Card-3-header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.Card-1-upper {
+    padding-top: 15px;
+    display: flex;
+    flex-direction: row;
+}
+
+.Card-1-bottom {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.view-profile-Button-p {
+    float: right;
+}
+
+.view-profile-Button {
+    background-color: white;
+    color: #3ba70a;
+    padding: 2px 15px;
+    border: solid #3ba70a 2px;
+    border-radius: 5px;
+    margin: 15px;
+    font-size: small;
+}
+
+.name-job-title {
+    font-size: small;
+    margin: 0px;
+    color: rgba(0, 0, 0, 0.582);
+}
+
+.Card-2-left-section {
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    place-items: center;
+}
+
+@media (max-width: 768px) {
+    .Card-1 {
+        text-wrap: wrap;
+    }
+
+    .Card-2 {
+        margin: 10px auto;
+    }
+
+    .Card-3-header {
+        flex-direction: column;
+    }
+
+    .Card-1-profile-div {
+        width: 85%;
+        margin: auto;
+        place-content: center;
+    }
+}
+
+#carouselExampleCaptions {
+    margin: 40px;
+}
+
+.carousel-indicators {
+    background-color: rgba(0, 0, 0, 0.195);
+    width: 15%;
+    transform: translateY(10px);
+    border-radius: 50px;
+    place-self: center;
+}
+
+.carousel-caption {
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.457);
+    color: black;
+}
+
+.carousel-item img {
+    object-fit: cover;
+    width: 100%;
+    height: 300px;
+}
+
+#Card-1-profile {
+    width: 100%;
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.Card-1-profile-div {
+    display: flex;
+    flex-direction: row;
+    place-self: center;
+    margin: 10px 10px;
+}
+
+.Cards {
+    text-align: center; 
+}
+.card {
+    box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.3);
+    margin: 12px;
+}
+.card-text{
+    font-size: small;
+    text-align: left;
+}
+#cards-div,
+.history-cards,
+.pending-request-cards,
+.request-cards{
+    display: flex; 
+    flex-flow: row wrap;
+}
+
+/* Pagination button styles */
+.page-link {
+    color: #28a745; /* Green text color */
+    background-color: transparent; /* Transparent background */
+    border-color: #28a745; /* Green border color */
+}
+
+.page-link:hover {
+    color: #fff; /* White text on hover */
+    background-color: #28a745; /* Green background on hover */
+    border-color: #28a745; /* Green border on hover */
+}
+
+.hide{
+    display: none
+}
+.highlight {
+    background-color: yellow;
+    font-weight: bold;
+}

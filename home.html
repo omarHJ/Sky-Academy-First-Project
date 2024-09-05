@@ -1,0 +1,230 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://getbootstrap.com/docs/5.3/assets/css/docs.css" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  <link rel="stylesheet" href="styles.css">
+  <title>Home</title>
+</head>
+
+<body>
+  <!--Bootstrap navigation bar-->
+  <nav class="navbar navbar-expand-lg">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#"></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active boldFont" aria-current="page" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="profiles.html">Profiles</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Reports</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Settings</a>
+          </li>
+        </ul>
+        <svg xmlns="http://www.w3.org/2000/svg" class="icon-white"
+          viewBox="0 0 448 512">
+          <path
+            d="M224 0c-17.7 0-32 14.3-32 32l0 19.2C119 66 64 130.6 64 208l0 18.8c0 47-17.3 92.4-48.5 127.6l-7.4 8.3c-8.4 9.4-10.4 22.9-5.3 34.4S19.4 416 32 416l384 0c12.6 0 24-7.4 29.2-18.9s3.1-25-5.3-34.4l-7.4-8.3C401.3 319.2 384 273.9 384 226.8l0-18.8c0-77.4-55-142-128-156.8L256 32c0-17.7-14.3-32-32-32zm45.3 493.3c12-12 18.7-28.3 18.7-45.3l-64 0-64 0c0 17 6.7 33.3 18.7 45.3s28.3 18.7 45.3 18.7s33.3-6.7 45.3-18.7z" />
+        </svg>
+        <svg xmlns="http://www.w3.org/2000/svg" class="icon-white"
+          viewBox="0 0 512 512">
+          <path
+            d="M399 384.2C376.9 345.8 335.4 320 288 320l-64 0c-47.4 0-88.9 25.8-111 64.2c35.2 39.2 86.2 63.8 143 63.8s107.8-24.7 143-63.8zM0 256a256 256 0 1 1 512 0A256 256 0 1 1 0 256zm256 16a72 72 0 1 0 0-144 72 72 0 1 0 0 144z" />
+        </svg>
+      </div>
+    </div>
+  </nav>
+  <!--Wellcome section-->
+  <div class="home-first-Div">
+    <h4>Welcome Back Hazem! Here are your latest updates</h4>
+    <button class="request-Button">New Requests</button>
+  </div>
+  <br />
+  <!--Employee dashboard-->
+  <div class="home-second-div">
+    <div class="Card-1">
+      <div>
+        <div class="Card-1-upper">
+          <p style="place-content: center;">
+            <img src="Icons/Screenshot 2024-09-01 150822.png" style="width: 60px; margin-left: 5px;">
+          </p>
+          <p style="padding: 0 10px ;">
+            Ahmad Azmi <br /><span class="name-job-title"> Junior Accounting Officer</span>
+          </p>
+        </div>
+        <div class="Card-1-bottom">
+          <p>
+          <p style="place-content: center; margin-left: 5%;">
+            <img src="Icons/user-svgrepo-com.png" style="width: 45px;">
+          </p>
+          <p>
+            Reporting to: <br /><span class="name-job-title"> Salwa Assem</span>
+          </p>
+          </p>
+          <p>
+          <p style="place-content: center; margin-left: 5%;">
+            <img src="Icons/chart-mixed-svgrepo-com.png" style="width: 50px;" />
+          </p>
+          <p>
+            Corporate Level: <br /><span class="name-job-title"> Level 10</span>
+          </p>
+          </p>
+        </div>
+      </div>
+      <p class="view-profile-Button-p">
+        <button class="view-profile-Button" onclick="window.location.href='profiles.html'">Go to Profiles</button>
+
+      </p>
+    </div>
+    <div class="Card-2">
+      <div class="Card-2-left-section">
+        <p>
+          <img src="Icons/Screenshot 2024-09-01 154244.png" width="70px">
+        </p>
+        <div style="width: 50px;">
+          <p style="text-wrap:wrap">
+            Vacation Requests
+          </p>
+        </div>
+      </div>
+      <p style="font-size: xxx-large; place-self: center">
+        10
+      </p>
+    </div>
+    <div class="Card-2">
+      <div class="Card-2-left-section">
+        <p>
+          <img src="Icons/Screenshot 2024-09-01 154244.png" width="70px">
+        </p>
+        <div style="width: 50px;">
+          <p style="text-wrap:wrap">
+            Leave Requests
+          </p>
+        </div>
+      </div>
+      <p style="font-size: xxx-large; place-self: center">
+        10
+      </p>
+    </div>
+  </div>
+  <br />
+  <!--Latest News Section with the images in slider-->
+  <h5 style="margin-left: 40px;">Latest News:</h5>
+  <div id="carouselExampleCaptions" class="carousel slide">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+        aria-label="Slide 1" aria-current="true"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"
+        class=""></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"
+        class=""></button>
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="Images/zibik-r3Z5tC8XOZ0-unsplash.jpg">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>Best Spots For A Summer Vacation</h5>
+          <p>Check out these spots where we provide you with a discount code! Type VACATION when inserting the promo
+            code and behold the surprise!</p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="Images/tijana-drndarski-HWMKmigec2A-unsplash.jpg">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>Best Spots For A Summer Vacation</h5>
+          <p>Check out these spots where we provide you with a discount code! Type VACATION when inserting the promo
+            code and behold the surprise!</p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="Images/dian-schuurkamp-D1pQ3q1cL5Q-unsplash.jpg">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>Best Spots For A Summer Vacation</h5>
+          <p>Check out these spots where we provide you with a discount code! Type VACATION when inserting the promo
+            code and behold the surprise!</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <br />
+  <!--Section that displays the latest vacations requests-->
+  <div class="home-third-div">
+    <div class="Card-3-header">
+      <p style="margin: 10px 0 0 10px;">
+        <img src="Icons/Screenshot 2024-09-01 154245.png" width="70px"> Vacations Requests
+      </p>
+      <div>
+        <form class="d-flex" style="margin: 20px 10px 0 0;">
+          <input id="searchInput" class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+          <button id="searchButton" class="btn btn-outline-success" type="button">Search</button>
+        </form>
+      </div>
+    </div>
+    <hr />
+    <div id="cards-div">
+      <div class="Cards"></div>
+      <div class="Cards"></div>
+      <div class="Cards"></div>
+    </div>
+    <p style="text-align: right; padding: 15px;">
+      <a class="boldFont" href="Vacation Request 1.html" style="color: #3ba70a;">View More ></a>
+    </p>
+  </div>
+  </div>
+
+  <script>
+
+    // JavaScript function to change the Bootstrap predefined images slider timer
+    var myCarousel = document.getElementById("carouselExampleCaptions");
+    var carousel = new bootstrap.Carousel(myCarousel, {
+      interval: 1500, // time in milliseconds = (1.5s)
+      ride: 'carousel'
+    });
+
+    //function to populate the vacations requests section with a bootstrap card 
+    var cardsElements = document.getElementsByClassName('Cards');
+    for (var i = 0; i < cardsElements.length; i++) {
+      cardsElements[i].innerHTML = `
+          <div class="card" style="width: 18rem;">
+            <div class="card-body">
+              <img src="Icons/Screenshot 2024-09-03 2119077.png" style="width: 100px; filter: drop-shadow(2px 5px 4px )" />
+              <h5>Ahmad Attar</h5>
+              <p class="card-text">
+                <span style="opacity: 0.7;"> Submitted on: </span> <br />
+                      1/3/2024 <br />
+                <span style="opacity: 0.7;"> Duration: </span> <br />
+                      2 Weeks (1/4/2023 - 14/4/2023) <br />
+                <span style="opacity: 0.7;"> Salary: </span> <br />
+                      1000 AD
+              </p>
+              <button type="button" class="btn btn-outline-success">Decline</button>
+              <button type="button" class="btn btn-success">Approve</button>
+            </div>
+          </div>
+        `;
+    }
+
+    // function that takes the value from the search input and search for a match in the vacation requests
+    document.getElementById('searchButton').addEventListener('click', function() {
+        var searchValue = document.getElementById('searchInput').value;
+        window.find(searchValue);
+    });
+  </script>
+
+</body>
+
+</html>
